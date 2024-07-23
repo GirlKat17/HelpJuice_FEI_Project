@@ -56,10 +56,10 @@ document.body.addEventListener('keypress', (event) => {
 
 );
 
-function hhh(){
+function check(){
     selectBlock.style.display = 'none'
     keywordText.style.display = 'none'
     UserTextHeading.style.display = 'block'
 
 }
-document.getElementById('H1').addEventListener("click", hhh);
+document.getElementById('H1').addEventListener("click", check);
