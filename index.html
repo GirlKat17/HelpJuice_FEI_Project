@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpJuice_FEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading"> Front-end developer test project  </h1>
+    <p>Your goal is to make a page that looks exactly like this one ,
+        and has the ability to create H1 text simply by typing / then 1 then typing text,and hitting enter</p>
+
+        <input placeholder="type /for blocks, @ to link docs or people" id="keywordText"/>
+
+        <div id="select-section" class="select-section">
+            <div class="add-block">
+                <h2>Add blocks</h2>
+                <p>Keep typing to filter, or escape to exit</p>
+                <p>filtering keyword <span id="keyword"></span></p>
+
+                <div class="results" id="H1"
+                >
+                    <h4>Heading 1</h4>
+                    <p>Shotcut: type # + space</p>
+                </div>
+                
+                <div class="results">
+                    <h4>Expandable Heading 1</h4>
+                    <p>Shotcut: type >># + space</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+            <input placeholder="Heading 1" id="UserTextHeading" class="headerInput" />
+        
+            <div class="displayAfter"  id="HeadingDisplay"></div>
+    
+            <input placeholder="type /for blocks, @ to link docs or people" id="UserTextParag" /> 
+    
+            <div id="normalTextDisplay"></div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
+
